@@ -1,7 +1,7 @@
 {
-	"name": "fosscord-server",
+	"name": "monocord-server",
 	"version": "1.0.0",
-	"description": "A Fosscord server written in Node.js",
+	"description": "A Monocord server written in Node.js",
 	"scripts": {
 		"prepare": "husky install",
 		"postinstall": "npx patch-package",
@@ -26,12 +26,12 @@
 	"types": "src/bundle/index.ts",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/fosscord/fosscord-server.git"
+		"url": "git+https://github.com/MonoSoftware1/monocord-server.git"
 	},
-	"author": "Fosscord",
+	"author": "Monocord",
 	"license": "AGPL-3.0-only",
 	"bugs": {
-		"url": "https://github.com/fosscord/fosscord-server/issues"
+		"url": "https://github.com/MonoSoftware1/monocord-server/issues"
 	},
 	"imports": {
 		"#*": "./dist/*/index.js"
